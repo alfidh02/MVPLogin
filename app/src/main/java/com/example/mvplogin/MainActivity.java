@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements ILoginView {
     public void onLoginSuccess(String message) {
         Toasty.success(this,message,Toast.LENGTH_SHORT).show();
         startActivity(new Intent(MainActivity.this,WelcomeActivity.class));
+        finish();
     }
 // Login gagal
     @Override
