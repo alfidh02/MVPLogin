@@ -1,4 +1,4 @@
-package com.example.mvplogin;
+package com.example.mvplogin.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.mvplogin.R;
 import com.example.mvplogin.presenter.ILoginPresenter;
 import com.example.mvplogin.presenter.LoginPresenter;
 import com.example.mvplogin.view.ILoginView;
@@ -47,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements ILoginView {
     @Override
     public void onLoginSuccess(String message) {
         Toasty.success(this,message,Toast.LENGTH_SHORT).show();
-        startActivity(new Intent(MainActivity.this,WelcomeActivity.class));
+        startActivity(new Intent(MainActivity.this, WelcomeActivity.class));
         finish();
     }
 // Login gagal

@@ -1,8 +1,10 @@
-package com.example.mvplogin;
+package com.example.mvplogin.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.mvplogin.R;
 
 public class WelcomeActivity extends AppCompatActivity {
 
