@@ -1,4 +1,4 @@
-package com.example.mvplogin.activities;
+package com.example.mvplogin.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,18 +12,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.mvplogin.contract.Contract;
 import com.example.mvplogin.R;
-import com.example.mvplogin.presenter.ILoginPresenter;
 import com.example.mvplogin.presenter.LoginPresenter;
-import com.example.mvplogin.view.ILoginView;
 
 import es.dmoral.toasty.Toasty;
 
-public class MainActivity extends AppCompatActivity implements ILoginView {
+public class MainActivity extends AppCompatActivity implements Contract.ILoginView {
     EditText edt_email,edt_pass;
     Button btn_login;
 
-    ILoginPresenter loginPresenter;
+    Contract.ILoginPresenter loginPresenter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

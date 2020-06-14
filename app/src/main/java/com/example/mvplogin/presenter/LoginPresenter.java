@@ -1,13 +1,14 @@
 package com.example.mvplogin.presenter;
 
+import com.example.mvplogin.contract.Contract;
 import com.example.mvplogin.model.User;
-import com.example.mvplogin.view.ILoginView;
 
-public class LoginPresenter implements ILoginPresenter {
+// This is presenter
+public class LoginPresenter implements Contract.ILoginPresenter {
 //    Perlu dideklarasikan agar bisa digunakan fungsinya (onLoginError/onLoginSuccess)
-    ILoginView loginView;
+    Contract.ILoginView loginView;
 
-    public LoginPresenter(ILoginView loginView) {
+    public LoginPresenter(Contract.ILoginView loginView) {
         this.loginView = loginView;
     }
 // Implement login presenter :

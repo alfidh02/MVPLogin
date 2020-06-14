@@ -1,4 +1,4 @@
-package com.example.mvplogin.activities;
+package com.example.mvplogin.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 

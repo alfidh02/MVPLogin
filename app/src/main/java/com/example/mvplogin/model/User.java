@@ -3,7 +3,11 @@ package com.example.mvplogin.model;
 import android.text.TextUtils;
 import android.util.Patterns;
 
-public class User implements IUser{
+import com.example.mvplogin.contract.Contract;
+
+// This is model
+
+public class User implements Contract.IUser{
 
     private String email,password;
 
