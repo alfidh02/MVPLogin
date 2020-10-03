@@ -4,3 +4,6 @@ Learning MVP pattern on simple login page. Design inspired by [Fyan Ahmad](https
 | | | | | |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 |<img width="1604" alt="intro" src="https://github.com/alfidh02/MVPLogin/blob/master/screenshots/loginscreen.jpeg">  Main screen | <img width="1604" alt="dashboard" src="https://github.com/alfidh02/MVPLogin/blob/master/screenshots/errorempty.jpeg"> Toasty error empty field | <img width="1604" alt="dashboard" src="https://github.com/alfidh02/MVPLogin/blob/master/screenshots/erroremail.jpeg"> Error email invalid | <img width="1604" alt="dashboard" src="https://github.com/alfidh02/MVPLogin/blob/master/screenshots/errorpass.jpeg"> Invalid password | <img width="1604" alt="dashboard" src="https://github.com/alfidh02/MVPLogin/blob/master/screenshots/success.jpeg"> Success login |
+
+Created by:
+Alfi Dharmawan
